@@ -65,7 +65,7 @@ function bp_share_it_button_activity_filter() {
   	}
   
 	
-	if (get_option('activity')==1) { $shareit = '<span class="bp-share-it-button"><a class="buddypress-share-button">'.$sharetrans.'</a></span>
+	if (get_option('activity')==1) { $shareit = '<span class="bp-share-it-button"> · <a class="buddypress-share-button">'.$sharetrans.'</a></span>
 	
 		
 	<div class="share-buttons ' . $activitytype . '">
